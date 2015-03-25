@@ -4,7 +4,8 @@
 # http://github.com/aerospike/aerospike-server.docker
 #
 
-FROM ubuntu:14.04
+#FROM ubuntu:14.04
+FROM dockerfile/python
 
 # Add Aerospike package and run script
 ADD http://aerospike.com/download/server/3.4.0/artifact/ubuntu12 /tmp/aerospike.tgz
